@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Category | Inventory API</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link href="https://www.itmerida.mx/imagenes/tec.png" rel="shortcut icon">
+    <meta name="description" content="Documentación de la API-REST">
+    <meta name="theme-color" content="#800000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="og:image" content="https://www.itmerida.mx/imagenes/tec.png">
+    
+    <link rel="preload" href="/inventory-docs/assets/css/0.styles.c52ef9aa.css" as="style"><link rel="preload" href="/inventory-docs/assets/js/app.337e5937.js" as="script"><link rel="preload" href="/inventory-docs/assets/js/2.61db35d9.js" as="script"><link rel="preload" href="/inventory-docs/assets/js/18.87a52c5d.js" as="script"><link rel="prefetch" href="/inventory-docs/assets/js/10.f4e3024d.js"><link rel="prefetch" href="/inventory-docs/assets/js/11.18a73a35.js"><link rel="prefetch" href="/inventory-docs/assets/js/12.23ed466f.js"><link rel="prefetch" href="/inventory-docs/assets/js/13.cda7ff61.js"><link rel="prefetch" href="/inventory-docs/assets/js/14.a38173a2.js"><link rel="prefetch" href="/inventory-docs/assets/js/15.94cd62f0.js"><link rel="prefetch" href="/inventory-docs/assets/js/16.7fc611f9.js"><link rel="prefetch" href="/inventory-docs/assets/js/17.662d4baa.js"><link rel="prefetch" href="/inventory-docs/assets/js/19.f4c13903.js"><link rel="prefetch" href="/inventory-docs/assets/js/20.c1965399.js"><link rel="prefetch" href="/inventory-docs/assets/js/21.a0cf7b50.js"><link rel="prefetch" href="/inventory-docs/assets/js/22.ef777561.js"><link rel="prefetch" href="/inventory-docs/assets/js/23.4242e5a0.js"><link rel="prefetch" href="/inventory-docs/assets/js/24.f8ff66d5.js"><link rel="prefetch" href="/inventory-docs/assets/js/25.b025c6c4.js"><link rel="prefetch" href="/inventory-docs/assets/js/26.20c66647.js"><link rel="prefetch" href="/inventory-docs/assets/js/27.b5e946f2.js"><link rel="prefetch" href="/inventory-docs/assets/js/28.9dd01f50.js"><link rel="prefetch" href="/inventory-docs/assets/js/3.0252ef3a.js"><link rel="prefetch" href="/inventory-docs/assets/js/4.58c652b2.js"><link rel="prefetch" href="/inventory-docs/assets/js/5.12f8ac37.js"><link rel="prefetch" href="/inventory-docs/assets/js/6.4915dca1.js"><link rel="prefetch" href="/inventory-docs/assets/js/7.67fc3bca.js"><link rel="prefetch" href="/inventory-docs/assets/js/8.c56cccde.js"><link rel="prefetch" href="/inventory-docs/assets/js/9.d5605bf9.js">
+    <link rel="stylesheet" href="/inventory-docs/assets/css/0.styles.c52ef9aa.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/inventory-docs/" class="home-link router-link-active"><img src="https://www.itmerida.mx/imagenes/tec.png" alt="Inventory API" class="logo"> <span class="site-name can-hide">Inventory API</span></a> <div class="links"><!----> <div class="user-settings"><a href="#" class="settings-button"><svg aria-hidden="true" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-cog fa-w-16 settings-icon"><path fill="currentColor" d="M444.788 291.1l42.616 24.599c4.867 2.809 7.126 8.618 5.459 13.985-11.07 35.642-29.97 67.842-54.689 94.586a12.016 12.016 0 0 1-14.832 2.254l-42.584-24.595a191.577 191.577 0 0 1-60.759 35.13v49.182a12.01 12.01 0 0 1-9.377 11.718c-34.956 7.85-72.499 8.256-109.219.007-5.49-1.233-9.403-6.096-9.403-11.723v-49.184a191.555 191.555 0 0 1-60.759-35.13l-42.584 24.595a12.016 12.016 0 0 1-14.832-2.254c-24.718-26.744-43.619-58.944-54.689-94.586-1.667-5.366.592-11.175 5.459-13.985L67.212 291.1a193.48 193.48 0 0 1 0-70.199l-42.616-24.599c-4.867-2.809-7.126-8.618-5.459-13.985 11.07-35.642 29.97-67.842 54.689-94.586a12.016 12.016 0 0 1 14.832-2.254l42.584 24.595a191.577 191.577 0 0 1 60.759-35.13V25.759a12.01 12.01 0 0 1 9.377-11.718c34.956-7.85 72.499-8.256 109.219-.007 5.49 1.233 9.403 6.096 9.403 11.723v49.184a191.555 191.555 0 0 1 60.759 35.13l42.584-24.595a12.016 12.016 0 0 1 14.832 2.254c24.718 26.744 43.619 58.944 54.689 94.586 1.667 5.366-.592 11.175-5.459 13.985L444.788 220.9a193.485 193.485 0 0 1 0 70.2zM336 256c0-44.112-35.888-80-80-80s-80 35.888-80 80 35.888 80 80 80 80-35.888 80-80z"></path></svg></a> <div class="user-settings-menu" style="display:none;"><div class="theme-options"><!----> <ul class="color-theme-options"><li><a href="#" class="default-theme"></a></li> <li><a href="#" class="blue-theme"></a></li><li><a href="#" class="red-theme"></a></li><li><a href="#" class="purple-theme"></a></li></ul> <div class="dark-theme-options toggle-option"><label for="dark-theme-toggle">Enable Dark Theme?</label> <input id="dark-theme-toggle" type="checkbox"></div> <div class="ignore-themes-options toggle-option"><label for="ignore-themes-toggle">Ignore Other Themes?</label> <input id="ignore-themes-toggle" type="checkbox"></div> <!----></div></div></div> <!----> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/inventory-docs/setup/" class="nav-link">
+  Configuración
+</a></div><div class="nav-item"><a href="/inventory-docs/models/" class="nav-link">
+  Base de Datos
+</a></div><div class="nav-item"><a href="/inventory-docs/routes/" class="nav-link router-link-active">
+  Rutas
+</a></div> <a href="https://github.com/Alvarez-P" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/inventory-docs/setup/" class="nav-link">
+  Configuración
+</a></div><div class="nav-item"><a href="/inventory-docs/models/" class="nav-link">
+  Base de Datos
+</a></div><div class="nav-item"><a href="/inventory-docs/routes/" class="nav-link router-link-active">
+  Rutas
+</a></div> <a href="https://github.com/Alvarez-P" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Rutas</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/inventory-docs/routes/" aria-current="page" class="sidebar-link">User</a></li><li><a href="/inventory-docs/routes/auth.html" class="sidebar-link">Auth</a></li><li><a href="/inventory-docs/routes/profile.html" class="sidebar-link">Profile</a></li><li><a href="/inventory-docs/routes/category.html" aria-current="page" class="active sidebar-link">Category</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/inventory-docs/routes/category.html#get" class="sidebar-link">GET</a></li><li class="sidebar-sub-header"><a href="/inventory-docs/routes/category.html#post" class="sidebar-link">POST</a></li><li class="sidebar-sub-header"><a href="/inventory-docs/routes/category.html#put" class="sidebar-link">PUT</a></li><li class="sidebar-sub-header"><a href="/inventory-docs/routes/category.html#delete" class="sidebar-link">DELETE</a></li></ul></li><li><a href="/inventory-docs/routes/provider.html" class="sidebar-link">Provider</a></li><li><a href="/inventory-docs/routes/product.html" class="sidebar-link">Product</a></li><li><a href="/inventory-docs/routes/inventory.html" class="sidebar-link">Inventory</a></li><li><a href="/inventory-docs/routes/buy-order.html" class="sidebar-link">Buy Order</a></li><li><a href="/inventory-docs/routes/buy.html" class="sidebar-link">Buy</a></li><li><a href="/inventory-docs/routes/sale-order.html" class="sidebar-link">Sale Order</a></li><li><a href="/inventory-docs/routes/sale.html" class="sidebar-link">Sale</a></li><li><a href="/inventory-docs/routes/expense.html" class="sidebar-link">Expense</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="category"><a href="#category" class="header-anchor">#</a> Category</h1> <h2 id="get"><a href="#get" class="header-anchor">#</a> GET</h2> <h3 id="obtener-lista"><a href="#obtener-lista" class="header-anchor">#</a> Obtener lista</h3> <p>Roles permitidos: <code>ADMIN</code> <code>CASHIER</code></p> <div class="language- extra-class"><pre class="language-text"><code>GET http://host.com/api/categories?limit=20&amp;offset=0&amp;order[]=id&amp;order[]=ASC
+Authorization: Bearer {token}
+</code></pre></div><details class="custom-block details"><summary>Queries disponibles</summary> <div class="language-sh extra-class"><pre class="language-sh"><code>?limit<span class="token operator">=</span><span class="token number">20</span>                   <span class="token comment"># 20 es el valor por defecto</span>
+?offset<span class="token operator">=</span><span class="token number">0</span>                   <span class="token comment"># 0 es el valor por defecto</span>
+?order<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">=</span>id<span class="token operator">&amp;</span>order<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">=</span>ASC     <span class="token comment"># [id, ASC] es el valor por defecto</span>
+?name<span class="token operator">=</span><span class="token punctuation">{</span>string<span class="token punctuation">}</span>              <span class="token comment"># Opcional</span>
+?description<span class="token operator">=</span><span class="token punctuation">{</span>string<span class="token punctuation">}</span>       <span class="token comment"># Opcional</span>
+</code></pre></div></details> <h3 id="obtener-uno"><a href="#obtener-uno" class="header-anchor">#</a> Obtener uno</h3> <p>Roles permitidos: <code>ADMIN</code> <code>CASHIER</code></p> <div class="language- extra-class"><pre class="language-text"><code>GET http://host.com/api/categories/{uuid}
+Authorization: Bearer {token}
+</code></pre></div><h2 id="post"><a href="#post" class="header-anchor">#</a> POST</h2> <p>Roles permitidos: <code>ADMIN</code></p> <div class="language- extra-class"><pre class="language-text"><code>POST http://host.com/api/categories
+Authorization: Bearer {token}
+Content-Type: application/json
+
+{
+    &quot;name&quot;: &quot;name&quot;,
+    &quot;description&quot;: &quot;description&quot;
+}
+</code></pre></div><h2 id="put"><a href="#put" class="header-anchor">#</a> PUT</h2> <p>Roles permitidos: <code>ADMIN</code></p> <div class="language- extra-class"><pre class="language-text"><code>PUT http://host.com/api/categories/{uuid}
+Authorization: Bearer {token}
+Content-Type: application/json
+
+{
+    &quot;name&quot;: &quot;name&quot;,
+    &quot;description&quot;: &quot;description&quot;
+}
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">Nota</p> <p>Todos los campos son opcionales, pero es requerido al menos uno</p></div> <h2 id="delete"><a href="#delete" class="header-anchor">#</a> DELETE</h2> <p>Roles permitidos: <code>ADMIN</code></p> <div class="language- extra-class"><pre class="language-text"><code>DELETE http://host.com/api/categories/{uuid}
+Authorization: Bearer {token}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/inventory-docs/routes/profile.html" class="prev">
+        Profile
+      </a></span> <span class="next"><a href="/inventory-docs/routes/provider.html">
+        Provider
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/inventory-docs/assets/js/app.337e5937.js" defer></script><script src="/inventory-docs/assets/js/2.61db35d9.js" defer></script><script src="/inventory-docs/assets/js/18.87a52c5d.js" defer></script>
+  </body>
+</html>
