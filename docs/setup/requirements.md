@@ -23,7 +23,7 @@ Ideado como un entorno de ejecución de JavaScript orientado a eventos asíncron
 [Documentación](https://nodejs.org/es/)
 :::
 <center>
-    <img src="../.vuepress/public/node_npm.png" alt="Node" width="450" height="150">
+    <img src="../.vuepress/public/node.png" alt="Node" width="250" height="150">
 </center>
 
 ## Docker
@@ -46,5 +46,5 @@ Compose es una herramienta para definir y ejecutar aplicaciones Docker de varios
 [Documentación](https://docs.docker.com/compose/)
 :::
 <center>
-    <img src="../.vuepress/public/docker-compose.png" alt="Node" width="200" height="250">
+    <img src="../.vuepress/public/docker-compose.png" alt="Node" width="200" height="200">
 </center>

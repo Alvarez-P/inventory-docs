@@ -7,18 +7,20 @@ Para ejecutar la API en el ambiente de desarrollo es necesario crear un archivo 
 ::: tip Nota
 Para el ambiente de desarrollo las siguientes variables deben tener los siguientes valores:
 
-- DB_HOST=db
-- DOCKER_COMMAND=npm run start
-- DOCKER_NODE_ENV=development
+```bash
+DB_HOST=db
+DOCKER_COMMAND=npm run start
+DOCKER_NODE_ENV=development
+```
 :::
 
-Después de ésto basta con ejecutar el proyecto con el comando:
+Para iniciar el proyecto ejecute el comando:
 
 ```sh
 $ docker-compose up -d 
 ```
 
-Unicamente es necesario esperar unos segundos a que la base de datos inicie y el proyecto ya estará listo para usarlo.
+Unicamente es necesario esperar unos segundos a que la base de datos inicie y el proyecto ya estará listo para usarse.
 
 Para detenerlo se usa el comando:
 
@@ -33,9 +35,11 @@ Para ejecutar los tests de la API es necesario crear un archivo llamado `.env.te
 ::: tip Nota
 Para los tests las siguientes variables deben tener los siguientes valores:
 
-- DB_HOST=db
-- DOCKER_COMMAND=npm run test
-- DOCKER_NODE_ENV=test
+```bash
+DB_HOST=db
+DOCKER_COMMAND=npm run test
+DOCKER_NODE_ENV=test
+```
 :::
 
 Después de ésto basta con ejecutar el proyecto con el comando:

@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Inventory API',
-  base: '/docs/',
+  base: '/inventory-docs/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -42,7 +42,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: 'https://github.com/Alvarez-P',
     editLinks: false,
     logo: 'https://www.itmerida.mx/imagenes/tec.png',
     docsDir: '',
@@ -54,7 +54,7 @@ module.exports = {
         link: '/setup/',
       },
       {
-        text: 'Modelos',
+        text: 'Base de Datos',
         link: '/models/'
       },
       {
@@ -76,24 +76,29 @@ module.exports = {
       ],
       '/routes/': [
         {
-          title: 'Configuración',
+          title: 'Rutas',
           collapsable: false,
           children: [
             '',
-            'user',
+            'auth',
             'profile',
+            'category',
+            'provider',
+            'product',
+            'inventory',
+            'buy',
+            'sale',
+            'expense'
           ]
         }
       ],
       '/models/': [
         {
-          title: 'Modelos',
+          title: 'Base de Datos',
           collapsable: false,
           children: [
             '',
-            'user',
-            'profile',
-            'expense'
+            'models'
           ]
         }
       ],
